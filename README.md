@@ -15,7 +15,7 @@ After loading the script:
 var myTownship = winResearcher('vSnf;ul;');
 
 // avoid converting numbers
-var myAddress = winResearcher('101 aumhu&dwf vSnf;ul;');
+var myAddress = winResearcher('101 aumhu&dwf vSnf;ul;', false);
 ```
 
 For NodeJS:

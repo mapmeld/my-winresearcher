@@ -1,0 +1,27 @@
+{
+  "name": "my-winresearcher",
+  "version": "1.0.0",
+  "description": "Convert WinResearcher Myanmar text to Unicode",
+  "main": "my-winresearcher.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "winresearcher",
+    "myanmar",
+    "i18n"
+  ],
+  "author": "The Asia Foundation",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapmeld/my-winresearcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mapmeld/my-winresearcher/issues"
+  },
+  "homepage": "https://github.com/mapmeld/my-winresearcher#readme"
+}

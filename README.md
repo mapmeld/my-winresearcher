@@ -13,11 +13,14 @@ After loading the script:
 ```javascript
 // convert all characters and numbers
 var myTownship = winResearcher('vSnf;ul;');
-> 'vSnf;ul;'
+> 'လှည်းကူး'
+
+var myAddress = winResearcher('101 aumhu&dwf vSnf;ul;');
+> '၁ဝ၁ ကော့ကရိတ် လှည်းကူး'
 
 // avoid converting numbers
-var myAddress = winResearcher('101 aumhu&dwf vSnf;ul;', true);
-> '101 aumhu&dwf vSnf;ul;'
+myAddress = winResearcher('101 aumhu&dwf vSnf;ul;', true);
+> '101 ကော့ကရိတ် လှည်းကူး'
 ```
 
 For NodeJS:
@@ -25,12 +28,6 @@ For NodeJS:
 ```javascript
 var winResearcher = require('my-winresearcher');
 var myTownship = winResearcher('vSnf;ul;');
-```
-
-## Usage
-
-```
-
 ```
 
 ## License

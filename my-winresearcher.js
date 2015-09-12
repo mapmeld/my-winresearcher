@@ -1,4 +1,4 @@
-function winResearcher(srcText, convertNumbers) {
+function winResearcher(srcText, preserveNumbers) {
   // replace and reorder WinResearcher font ASCII
   // result is Myanmar Unicode text and numbers
   var replacements = [
@@ -108,7 +108,7 @@ function winResearcher(srcText, convertNumbers) {
   ];
 
   // by default, replace numbers
-  if (convertNumbers !== false) {
+  if (!preserveNumbers) {
     replacements = replacements.concat([
       [/1/g, '၁'],
       [/2/g, '၂'],

@@ -13,9 +13,11 @@ After loading the script:
 ```javascript
 // convert all characters and numbers
 var myTownship = winResearcher('vSnf;ul;');
+> 'vSnf;ul;'
 
 // avoid converting numbers
-var myAddress = winResearcher('101 aumhu&dwf vSnf;ul;', false);
+var myAddress = winResearcher('101 aumhu&dwf vSnf;ul;', true);
+> '101 aumhu&dwf vSnf;ul;'
 ```
 
 For NodeJS:

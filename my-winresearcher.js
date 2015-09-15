@@ -18,6 +18,7 @@ function winResearcher(srcText, preserveNumbers) {
     [/é/g, '္န'],
     [/½/g, 'ရ'],
     [/Ü/g, '္ပ'],
+    [/(.)Ð/g, 'င်္$1ီ'],
     // -
     // =
     [/q/g, 'ဆ'],

@@ -14,9 +14,10 @@ function winResearcher(srcText, preserveNumbers) {
     [/\#/g, 'ဋ'],
     [/®/g, '္မ'],
     [/Ö/g, '္ဏ'],
-    [/Ó/g, 'ည'],  // ည connected on top?
+    [/Ó/g, 'ဉာ'],
     [/é/g, '္န'],
     [/½/g, 'ရ'],
+    [/ö/g, '္စ'],
     [/Ü/g, '္ပ'],
     [/(.)Ð/g, 'င်္$1ီ'],
     // -
@@ -84,9 +85,8 @@ function winResearcher(srcText, preserveNumbers) {
     [/L/g, 'ူ'],
     [/:/g, 'ါ်'],
     [/"/g, 'ဓ'],
-
     [/Z/g, 'ဇ'],
-    [/X/g, 'ဥ'],
+    [/X/g, 'ဌ'],
     [/C/g, 'ဃ'],
     [/V/g, 'ဠ'],
     [/B(.)/g, '$1ြ'],

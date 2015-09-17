@@ -102,7 +102,8 @@ function winResearcher(srcText, preserveNumbers) {
     [/¬/g,  '္ထ'],
     [/©/g,  '္ခ'],
     [/§/g, 'ှ'],
-    [/Á/g,  '္ဗ']
+    [/Á/g,  '္ဗ'],
+    [/Æ/g, '္ဇ']
 
     // still unplaced?
     //  ၎    ဩ ဿ  ဈ

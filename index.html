@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>MY-WinResearcher Converter</title>
+    <link rel="stylesheet" type="text/css" href="myanmar.css"/>
+    <style type="text/css">
+      @font-face {
+        font-family: 'Noto Sans Myanmar';
+        src: url(NotoSansMyanmar-Regular.ttf);
+      }
+      html, body, span, strong {
+        font-family: 'Noto Sans Myanmar', sans-serif;
+      }
+      body {
+        margin: 25px;
+      }
+      button {
+        font-size: 12pt;
+        padding: 20px;
+        margin: 10px;
+      }
+      textarea {
+        font-size: 12pt;
+        line-height: 14pt;
+      }
+    </style>
+  </head>
+  <body>
+    <h4>WinResearcher Text</h4>
+    <textarea id="input" rows="5" cols="100"></textarea>
+    <br/>
+    <button id="runConvert">Convert</button>
+    <h4>Unicode Text</h4>
+    <textarea id="output" rows="5" cols="100"></textarea>
+
+    <br/>
+    <br/>
+    Using open source library <a href="https://github.com/mapmeld/my-winresearcher">my-winresearcher</a>.
+
+    <script type="text/javascript" src="my-winresearcher.js"></script>
+    <script type="text/javascript">
+      document.getElementById("runConvert").onclick = function(e) {
+        var input = document.getElementById("input").value;
+        document.getElementById("output").value = winResearcher(input);
+      };
+    </script>
+  </body>
+</html>

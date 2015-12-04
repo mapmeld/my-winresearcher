@@ -41,6 +41,10 @@ winresearcher input.txt
 > လှည်းကူး
 ```
 
+Test it out on the web:
+
+http://mapmeld.github.io/my-winresearcher/
+
 ## License
 
 Open source, MIT license

@@ -30,6 +30,17 @@ var winResearcher = require('my-winresearcher');
 var myTownship = winResearcher('vSnf;ul;');
 ```
 
+For command line:
+
+```bash
+npm install -g my-winresearcher
+winresearcher input.txt output.txt
+
+# output directly to command line
+winresearcher input.txt
+> လှည်းကူး
+```
+
 ## License
 
 Open source, MIT license

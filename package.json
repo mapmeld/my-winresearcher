@@ -1,6 +1,6 @@
 {
   "name": "my-winresearcher",
-  "version": "1.1.2",
+  "version": "1.2.2",
   "description": "Convert WinResearcher Myanmar text to Unicode",
   "main": "my-winresearcher.js",
   "scripts": {
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/mapmeld/my-winresearcher#readme",
   "devDependencies": {
     "mocha": "^2.2.5"
+  },
+  "bin": {
+    "winresearcher": "cli.js"
   }
 }

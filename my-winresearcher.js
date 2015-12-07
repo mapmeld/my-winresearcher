@@ -70,9 +70,9 @@ function winResearcher(srcText, preserveNumbers) {
     [/O/g, 'ဥ'],
 
     [/P/g, 'ဏ'],
-    [/\{/g, '5'], // looks like c in ၏
+    [/\{/g, 'ဧ'],
     [/\}/g, '\''],
-    [/\|/g, '6'],
+    [/\|/g, 'ဠ'],
 
     [/A/g, 'ဗ'],
     [/S/g, 'ှ'],

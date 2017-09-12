@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/mapmeld/my-winresearcher#readme",
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "mocha": "^3.5.3"
   },
   "bin": {
     "winresearcher": "cli.js"
